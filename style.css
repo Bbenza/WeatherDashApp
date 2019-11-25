@@ -1,0 +1,85 @@
+  
+body {
+    background-image: url("default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* text-shadow: 2px 2px  rgb(10, 1, 1);  */
+    font-family: "paltino linotype", "Book Antiqua", Palatino, serif;
+  }
+  #weatherContainer {
+    
+    box-shadow: 1px 1px 5px black; 
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+    
+  }
+  h1 {
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    opacity: o.8;
+    padding: 10px;
+    margin: 0px 400px ;
+    font-size: 42px;
+  
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+    
+  
+ #weathercontainer h1{
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+    
+  
+  #searchContainer {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2px;
+
+  }  
+ 
+  #searchContainer button {
+    background-color: rgb(1, 159, 198);
+    width: 75px;
+
+  }
+  
+  #weatherMain {
+    display: block;
+    margin: -20px;
+  }
+
+  #weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50px;
+
+  }
+
+  #temperature {
+    font-size: 38px;
+    vertical-align: 25px;
+  }
+
+  .bottomDetails {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  #fiveDay {
+    margin: 520px 30px -20px 35px;
+    padding: 5px 5px 5px 5px;
+
+  
+  }
+
+    
+  
+  
