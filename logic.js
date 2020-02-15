@@ -65,7 +65,7 @@ function init(resultFromServer) {
     '.png';
 
   let resultDescription = resultFromServer.weather[0].description;
-  console.log(resultDescription)
+  // console.log(resultDescription)
   weatherDescriptionHeader.innerText = resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
 
   temperatureElement.innerHTML =
